@@ -6,15 +6,6 @@ module Network.GRPC.Unsafe.Constants where
 #include "grpc/impl/codegen/propagation_bits.h"
 #include "grpc/impl/codegen/compression_types.h"
 
-argEnableCensus :: Int
-argEnableCensus = #const GRPC_ARG_ENABLE_CENSUS
-
-argMaxConcurrentStreams :: Int
-argMaxConcurrentStreams = #const GRPC_ARG_MAX_CONCURRENT_STREAMS
-
-argMaxMessageLength :: Int
-argMaxMessageLength = #const GRPC_ARG_MAX_MESSAGE_LENGTH
-
 writeBufferHint :: Int
 writeBufferHint = #const GRPC_WRITE_BUFFER_HINT
 
